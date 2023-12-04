@@ -24,7 +24,7 @@ public class Tienda<T extends ProductoBase> implements Iterable<T> {
         Collections.sort(productos, ProductoBase.comparadorPorNombre);
     }
 
-    // Implementación de iterador 
+ 
     @Override
     public Iterator<T> iterator() {
         return productos.iterator();
